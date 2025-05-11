@@ -1,3 +1,4 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ To deploy this project on Netlify: First build your React app using npm run build, then either drag-and-drop the generated build/ folder to Netlify Drop, or connect your GitHub repository via Netlify's dashboard (set build command to npm run build and publish directory to build/). Netlify will automatically deploy your site and provide a live URL (like your-app-name.netlify.app) with continuous deployment on every Git push. 
+ 
